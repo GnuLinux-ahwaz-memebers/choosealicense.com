@@ -1,0 +1,19 @@
+---
+- 
+  name: fullname
+  description: The full name or username of the repository owner
+  0:
+    name: login
+    description: The repository owner's username
+  1:
+    name: email
+    description: The repository owner's primary email address
+  2:
+    name: project
+    description: The repository name
+  3:
+    name: description
+    description: The description of the repository
+  4:
+    name: year
+    description: The current year
