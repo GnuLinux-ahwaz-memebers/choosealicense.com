@@ -1,0 +1,13 @@
+files:
+  - source: /_*
+    ignore:
+      - '*.css'
+      - /_licenses/*.txt
+      - '*.js'
+      - '*.png'
+      - '*.scss'
+      - '*.coffee'
+      - /assets
+      - /script
+      - /spec
+    translation: /%original_path%/%file_name%-%two_letters_code%.%file_extension%
